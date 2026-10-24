@@ -1,0 +1,9 @@
+Cabine Momo - fichiers du projet
+
+index.html                       L'application (page unique)
+.github/workflows/build-apk.yml  Script GitHub qui construit l'APK
+supabase.sql                     Script de la base de données (déjà exécuté)
+
+Construire l'APK : déposer index.html et .github/workflows/build-apk.yml dans un dépôt GitHub,
+puis ouvrir l'onglet Actions et télécharger "cabine-momo-apk" dans Artifacts.
+Ne jamais mettre la clé secrète Supabase (sb_secret_...) dans ces fichiers.
